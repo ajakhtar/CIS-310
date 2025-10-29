@@ -44,12 +44,12 @@
           <string>Sum</string>
         </entry>
         <entry>
-          <string>intFormat</string>
-          <intFormat>dec</intFormat>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>4</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>dec</intFormat>
         </entry>
       </elementAttributes>
       <pos x="1020" y="100"/>
@@ -108,20 +108,6 @@
       <pos x="300" y="480"/>
     </visualElement>
     <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Value</string>
-          <long>0</long>
-        </entry>
-        <entry>
-          <string>intFormat</string>
-          <intFormat>dec</intFormat>
-        </entry>
-      </elementAttributes>
-      <pos x="880" y="400"/>
-    </visualElement>
-    <visualElement>
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
@@ -134,6 +120,16 @@
         </entry>
       </elementAttributes>
       <pos x="860" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Carry In</string>
+        </entry>
+      </elementAttributes>
+      <pos x="860" y="380"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -302,6 +298,10 @@
       <p2 x="720" y="220"/>
     </wire>
     <wire>
+      <p1 x="860" y="380"/>
+      <p2 x="880" y="380"/>
+    </wire>
+    <wire>
       <p1 x="800" y="120"/>
       <p2 x="800" y="300"/>
     </wire>
@@ -350,12 +350,12 @@
       <p2 x="720" y="500"/>
     </wire>
     <wire>
-      <p1 x="880" y="400"/>
-      <p2 x="880" y="420"/>
-    </wire>
-    <wire>
       <p1 x="400" y="320"/>
       <p2 x="400" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="380"/>
+      <p2 x="880" y="420"/>
     </wire>
     <wire>
       <p1 x="820" y="500"/>
