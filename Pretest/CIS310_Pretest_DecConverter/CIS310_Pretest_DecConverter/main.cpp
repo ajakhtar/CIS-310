@@ -60,6 +60,7 @@ int main() {
 
         cout << toBCD(i) << "\n";
     }
+    cout << "Abdullah Akhtar \n";
 
     return 0;
 }
